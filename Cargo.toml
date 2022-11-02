@@ -1,0 +1,12 @@
+[package]
+name = "LSFM"
+version = "0.1.0"
+authors = ["Luks17 <lucasthidavort@gmai.com>"]
+description = "Simple terminal file manager"
+license = "GPL-3.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.0.18", features = ["derive"] }
+crossterm = "0.25.0"
+tui = "0.19.0"
